@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.unam.efrain.semana3.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1744dp"
+        android:layout_height="2319dp"
+        android:contentDescription="@string/entrar"
+        app:srcCompat="@drawable/marcianito"
+        tools:layout_editor_absoluteX="-472dp"
+        tools:layout_editor_absoluteY="-556dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/Widget.Material.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/entrar"
+        android:textColor="@android:color/background_light"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="572dp" />
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenido"
+        android:textColor="@android:color/background_light"
+        android:textSize="@android:dimen/notification_large_icon_width"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="208dp" />
+</android.support.constraint.ConstraintLayout>
